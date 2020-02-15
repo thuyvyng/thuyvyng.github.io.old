@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+* {
+  font-family: 'Maven Pro', sans-serif;
+  padding: 0px;
+  border: 0px;
+  margin:0px;
+}
+
+body{
+  background-image: url(back2.png);
+}
+
+a{
+  text-decoration: none;
+  margin-right: 10px;
+  font-family: 'Abel', sans-serif;
+}
+
+a:hover{
+  color: #fff1b5
+}
+
+.in_link{
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.in_link:hover{
+  color: #7acfd6;
+}
+h5{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+li{
+  margin-left: 30px;
+}
+
+h1{
+  font-weight: normal;
+  margin-bottom: 25px;
+}
+
+button{
+  background: none;
+}
+
+#name{
+  font-size: 80px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: #a9d0e6;
+}
+
+#short_bio{
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.navbar{
+  font-weight: bold;
+  font-size: 24px;
+  background-color: #7acfd6;
+  background-repeat: none;
+  min-width: 555px;
+}
+
+.nav_links{
+  float: right;
+  margin-right: 10px;
+}
+
+.backie{
+  background-image: url(back2.png);
+
+}
+.intro{
+  padding-top: 10%;
+  display: flex;
+  min-width: 600px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.headshot{
+  border-radius: 50%;
+  width: 34%;
+  height: 34%;
+}
+
+.greeting{
+  width: 65%;
+  font-size: 45px;
+}
+
+.content{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.image_center{
+  display: block;
+  margin: auto;
+  width: 95%;
+}
+
+.minisection{
+  max-width:1000px;
+  margin: auto;
+}
+
+.sub{
+  margin-top: 20px;
+}
+
+
+/* RESUME PAGE */
+
+
+.resume_content{
+  padding-top: 60px;
+  max-width:800px;
+  margin: auto;
+}

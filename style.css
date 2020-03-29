@@ -16,6 +16,7 @@ a{
   text-decoration: none;
   margin-right: 10px;
   font-family: 'Abel', sans-serif;
+  color:#20639B;
 }
 
 a:hover{
@@ -108,16 +109,38 @@ button{
   margin: auto;
   width: 95%;
 }
+.sub{
+  margin-top: 20px;
+}
+
+.projectname{
+  font-size: 25px;
+  color: pink;
+}
+
+.image_right{
+  max-width: 35%;
+
+}
 
 .minisection{
   max-width:1000px;
   margin: auto;
 }
 
-.sub{
-  margin-top: 20px;
+.seventy{
+  max-width: 55%;
 }
-
+.project{
+  background-color: white;
+  padding: 5px;
+}
+.projectcontent{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: white;
+}
 
 /* RESUME PAGE */
 

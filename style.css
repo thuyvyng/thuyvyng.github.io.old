@@ -67,6 +67,10 @@ button{
 
 } 
 
+.projectname{
+  color:black;
+}
+
 .projectname a:hover{
   color: #7285A5;
 

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title> Thuy-Vy Nguyen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="index.html"> &nbsp; &nbsp;T H U Y - V Y &nbsp; &nbsp; N G U Y E N</a>
+
+        <div class="nav_links">
+            <a href="index.html"> home</a>
+            <a href="resume_thuyvynguyen.pdf"> experience</a>
+            <a href="projects.html"> projects </a>
+        </div>
+    </div>
+
+
+    <!-- HERE IS WHERE THE TIP STUFF STARTS -->
+    <div class="contentcalc">
+        <h1>Tip Calculator</h1>
+        <hr>
+        <div class="calculator">
+    
+            <form>
+                <p>How much was your bill? </p>
+                
+                    $ <input type="text" placeholder="Bill Amount" id="billamt" >
+                <p>How was your service? </p>
+                        <select id="serviceQual">
+                            <option disabled selected value="0"> Service Quality</option>
+                            <option value="0.3">30&#37; &#45; Outstanding</option>
+                            <option value="0.2">20&#37; &#45; Good</option>
+                            <option value="0.15">15&#37; &#45; Mediocre </option>
+                            <option value="0.1">10&#37; &#45; Bad</option>
+                            <option value="0.05">5&#37; &#45; Terrible</option>
+                        </select>
+            </form>
+            <p>How many people are sharing the bill?</p>
+            <input type="text" placeholder="Number of People" id="peopleamt">
+
+            <button type="button" id="calculate">Calculate!</button>
+    
+        </div>
+        
+        
+        <!--calculator end-->
+        <div id="totalTip">
+            <hr>
+            <br>
+            <p> Tip Total: </p>
+            $<span id="tiptotal">0.00</span>
+
+            <p> Per person: </p>
+            $<span id="tip">0.00</span>
+
+            <p> Bill Total w/ Tip: </p>
+            $<span id="btotal">0.00</span>
+
+            <p> Per Person: </p>
+            $<span id="ptotal">0.00</span>
+
+
+            <small id="each"></small>
+        </div>
+        <!--totalTip end-->
+    
+    </div>
+    <script type="text/javascript" src="tipcalculator.js"></script>
+    
+
+
+    
+
+
+</body>
+
+</html>

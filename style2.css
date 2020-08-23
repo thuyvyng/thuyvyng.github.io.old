@@ -20,7 +20,12 @@
 
 a:hover{
     text-decoration: none;
+    color: pink;
 }
+a{
+    color: #7185c7;
+}
+
 
 .contacts{
     border: 1px solid white;
@@ -30,4 +35,8 @@ a:hover{
     padding: 10px;
     font-weight: bolder;
     /* background-color: white; */
+}
+
+h4 {
+    padding-top: 15px;
 }

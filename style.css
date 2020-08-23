@@ -44,3 +44,7 @@ h4 {
 a{
     font-weight: bolder;
 }
+
+.calc{
+    border: 1px solid lightgray;
+}

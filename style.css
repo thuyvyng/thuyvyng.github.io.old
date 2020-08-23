@@ -20,6 +20,11 @@ a{
   color:#20639B;
 }
 
+h1{
+  font-size: 18px;
+  color: pink;
+}
+
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
   #primary { width:67%; }
@@ -54,10 +59,6 @@ li{
   margin-left: 30px;
 }
 
-h1{
-  font-weight: normal;
-  margin-bottom: 25px;
-}
 
 button{
   background: none;

@@ -48,3 +48,11 @@ a{
 .calc{
     border: 1px solid lightgray;
 }
+
+.side{
+    color: #A9A9A9	;
+}
+
+.backgray{
+    background-color:#e7ecf8 	;
+}

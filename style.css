@@ -25,7 +25,13 @@ a:hover{
 a{
     color: #7185c7;
 }
+.space{
+    padding: 5px;
+}
 
+.contactme{
+    font-weight: 900;
+}
 
 .contacts{
     border: 1px solid white;

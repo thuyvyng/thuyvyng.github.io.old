@@ -29,6 +29,10 @@ a{
     padding: 5px;
 }
 
+.con{
+     color: white; 
+}
+
 .contactme{
     font-weight: 900;
 }
@@ -60,5 +64,5 @@ a{
 }
 
 .backgray{
-    background-color:#e7ecf8 	;
+    background-color:	#435274;
 }

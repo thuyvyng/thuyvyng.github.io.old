@@ -99,6 +99,7 @@ height: auto;
     color: white;
     font-size: 20px;
     position: absolute;
+    text-transform: lowercase;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -115,13 +116,14 @@ height: auto;
   
   /* Create four equal columns that sits next to each other */
   .columnn {
-    flex: 33%;
-    max-width: 33%;
-    padding: 0 4px;
+    flex: 25%;
+    max-width: 25%;
+    padding: 4px 4px;
   }
   
   .columnn img {
-    margin-top: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     vertical-align: middle;
     width: 100%;
   }

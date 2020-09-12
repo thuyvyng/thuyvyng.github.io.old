@@ -24,6 +24,9 @@
   /* padding-bottom: 500px; 
 } */
 
+#bigger{
+  font-size: 23px;
+}
 a:hover{
     text-decoration: none;
     color: pink;

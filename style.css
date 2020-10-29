@@ -18,6 +18,15 @@
     padding-bottom: 300px;
 }
 
+#field{
+  /* background-image: url(flowers.jpeg); */
+  background-color: seagreen;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  color: white;
+  /* text-align: center; */
+}
+
 /* #thuyvytravels{
   background-image: url(travel/53.jpg);
   /* padding-top: 150px; */

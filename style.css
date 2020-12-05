@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,400&family=Tajawal:wght@200;500;800&display=swap');
+
 #smaller{
     font-size: 45px;
 }
+#resume_button{
+  border:1px solid purple;  
+  padding: 15px;
+  border-radius: 25px;
 
+}
+#resume_button:hover{ 
+  border:1px solid pink;  
+  padding: 15px;
+  border-radius: 25px;
+
+}
 #me{
     width: 100%;
 }
@@ -19,19 +32,11 @@
 }
 
 #field{
-  /* background-image: url(flowers.jpeg); */
   background-color: seagreen;
   background-size:     cover;                      /* <------ */
   background-repeat:   no-repeat;
   color: white;
-  /* text-align: center; */
 }
-
-/* #thuyvytravels{
-  background-image: url(travel/53.jpg);
-  /* padding-top: 150px; */
-  /* padding-bottom: 500px; 
-} */
 
 #bigger{
   font-size: 23px;
@@ -146,21 +151,6 @@ height: auto;
     width: 100%;
   }
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .columnn {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .columnn {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
   .hello{
     padding-top: 2px;
   }

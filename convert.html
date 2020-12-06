@@ -41,28 +41,24 @@
   <!-- CALC -->
   <br> <br><br>
 
-  <div class = "container calc">
+  <div class = "container calc text-center">
     
     <h1> Calculator Converter</h1>
-    <hr>
     <div class="calculator">
         <form>
-            <p>Decimal Value: <input type="text" placeholder=" Enter Here" id="number"></p>
-            <p>Convert to 
-            <select id="convertType">
-                <option value="binary">Binary </option>
-                <option value="octal">Octal</option>
-                <option value="hex">Hexidecimal</option>
-            </select>
+            <p>Enter number you want to convert:<br> <input type="text"  id="number" onkeyup="convert()"></p>
             </p>
         </form>
-        <button type="button" id="calculate">Calculate!</button>
-        <br><br>
+        <!-- <br><br> -->
 
     </div>
         <div id="result">
-            <hr>
-            <span id="tiptotal"> 0 </span>
+            <!-- <hr> -->
+            <h4>
+            <span id="tiptotal"> Binary </span> 
+            <span id="tiptotal2"> Octal </span>
+            <span id="tiptotal3"> Hex </span>
+            </h4>
             <br>
             
 

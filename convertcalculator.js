@@ -1,6 +1,5 @@
 function convert() {
     var number1 = document.getElementById("number").value;
-    var number2type = document.getElementById("convertType").value;
 
     //validate input
     
@@ -13,27 +12,30 @@ function convert() {
         alert("Please enter values");
         return;
     }
-    var converted;
-    switch(number2type){
-        case "binary":
-            converted = parseInt(value, 10).toString(2);
-            break;
-        case 'octal':
-            converted = parseInt(value, 10).toString(8);
-            break;
-        case "hex":
-            converted = parseInt(value, 10).toString(16);
-            break;
-    }
+    var converted = parseInt(value, 10).toString(2);
+    var converted2= parseInt(value, 10).toString(8);
+    var converted3 = parseInt(value, 10).toString(16);
+
     document.getElementById("result").style.display = "block";
     document.getElementById("tiptotal").style.display = "block";
-    document.getElementById("tiptotal").innerHTML = "= " + converted;
+    document.getElementById("tiptotal").innerHTML = "Binary = " + converted;
+
+    document.getElementById("tiptotal2").style.display = "block";
+    document.getElementById("tiptotal2").innerHTML =  "Decimal = " + converted2;
+
+    document.getElementById("tiptotal3").style.display = "block";
+    document.getElementById("tiptotal3").innerHTML = " Octal= " + converted3;
     
 }
 
 //Hide the tip amount on load
 document.getElementById("tiptotal").style.display = "none";
 document.getElementById("result").style.display = "none";
+
+document.getElementById("tiptotal2").style.display = "none";
+
+document.getElementById("tiptotal3").style.display = "none";
+
 
 
 //click to call function

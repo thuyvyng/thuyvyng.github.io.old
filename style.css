@@ -69,6 +69,10 @@ a{
     font-weight: bolder;
     /* background-color: white; */
 }
+#number{
+  background-color: ghostwhite;
+  border: 2px solid lightsteelblue;
+}
 
 h4 {
     padding-top: 15px;
@@ -78,9 +82,9 @@ a{
     font-weight: bolder;
 }
 
-.calc{
+/* .calc{
     border: 1px solid lightgray;
-}
+} */
 
 .side{
     color: #A9A9A9	;

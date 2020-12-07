@@ -21,10 +21,10 @@ function convert() {
     document.getElementById("tiptotal").innerHTML = "Binary = " + converted;
 
     document.getElementById("tiptotal2").style.display = "block";
-    document.getElementById("tiptotal2").innerHTML =  "Decimal = " + converted2;
+    document.getElementById("tiptotal2").innerHTML =  "Octal = " + converted2;
 
     document.getElementById("tiptotal3").style.display = "block";
-    document.getElementById("tiptotal3").innerHTML = " Octal= " + converted3;
+    document.getElementById("tiptotal3").innerHTML = " Hex = " + converted3;
     
 }
 

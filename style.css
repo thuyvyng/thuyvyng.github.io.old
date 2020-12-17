@@ -1,5 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,400&family=Tajawal:wght@200;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Assistant:wght@400;500&family=Inconsolata:wght@300;400&family=Mallanna&family=Nunito:wght@200;300;400;600&family=Pavanam&family=Raleway&family=Roboto:ital,wght@0,300;1,100&display=swap');
+/* body{
+  font-family: 'Roboto', sans-serif;
+}  */
 
+h2{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+a{
+  font-weight: bold;
+} 
 #smaller{
     font-size: 45px;
 }
@@ -20,11 +31,10 @@
 }
 #transparent {
     background-color: rgba(255,255,255,0.83);
-
 }
 #top{
     background-image: url(img/cal.jpeg);
-    background-size:     cover;                      /* <------ */
+    background-size:     cover;                     
     background-repeat:   no-repeat;
     color: white;
     padding-top: 150px;
@@ -33,13 +43,14 @@
 
 #field{
   background-color: seagreen;
-  background-size:     cover;                      /* <------ */
+  background-size:     cover;                     
   background-repeat:   no-repeat;
   color: white;
 }
 
 #bigger{
-  font-size: 26px;
+  font-family: 'Inconsolata', Helvetica, sans-serif;
+  font-size: 28px;
 }
 a:hover{
     text-decoration: none;
@@ -49,26 +60,19 @@ a{
     color: #7185c7;
 }
 .space{
-    padding: 5px;
+    padding-right: 35px;
 }
 
 .con{
      color: white; 
 }
 
-.contactme{
-    font-weight: 900;
-}
-
 .contacts{
-    border: 1px solid white;
     display: inline-block;
-    /* color: black; */
-    /* border-radius: 25%; */
     padding: 10px;
     font-weight: bolder;
-    /* background-color: white; */
 }
+
 #number{
   background-color: ghostwhite;
   border: 2px solid lightsteelblue;
@@ -81,10 +85,6 @@ h4 {
 a{
     font-weight: bolder;
 }
-
-/* .calc{
-    border: 1px solid lightgray;
-} */
 
 .side{
     color: #A9A9A9	;
@@ -99,9 +99,9 @@ a{
   }
 
 .image {
-display: block;
-width: 100%;
-height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -141,7 +141,6 @@ height: auto;
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
   .columnn {
     flex: 25%;
     max-width: 25%;
@@ -153,12 +152,4 @@ height: auto;
     margin-bottom: 4px;
     vertical-align: middle;
     width: 100%;
-  }
-  
-  .hello{
-    padding-top: 2px;
-  }
-
-  .goodbye{
-    padding-bottom: 0px;
   }

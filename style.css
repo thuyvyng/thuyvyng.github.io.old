@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Assistant:wght@400;500&family=Inconsolata:wght@300;400&family=Mallanna&family=Nunito:wght@200;300;400;600&family=Pavanam&family=Raleway&family=Roboto:ital,wght@0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;800&display=swap');
 
 h2{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Gothic A1', sans-serif;
   font-weight: bold;
 }
 
@@ -11,6 +12,7 @@ a{
 #smaller{
     font-size: 45px;
 }
+
 #resume_button{
   border:1px solid purple;  
   padding: 15px;

@@ -6,9 +6,6 @@ h2{
   font-weight: bold;
 }
 
-a{
-  font-weight: bold;
-} 
 #smaller{
     font-size: 45px;
 }
@@ -74,14 +71,6 @@ a{
 #number{
   background-color: ghostwhite;
   border: 2px solid lightsteelblue;
-}
-
-h4 {
-    padding-top: 15px;
-}
-
-a{
-    font-weight: bolder;
 }
 
 .side{
@@ -150,4 +139,9 @@ a{
     margin-bottom: 4px;
     vertical-align: middle;
     width: 100%;
+  }
+
+  .card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
   }

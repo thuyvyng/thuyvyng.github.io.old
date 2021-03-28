@@ -145,3 +145,7 @@ a{
     display: flex;
     flex: 1 1 auto;
   }
+
+  .navbar-collapse.collapse.in {
+    display: block!important;
+  }

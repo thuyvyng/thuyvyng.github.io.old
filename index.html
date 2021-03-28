@@ -4,7 +4,7 @@
   <title> Thuy-Vy Nguyen</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
@@ -15,27 +15,25 @@
 <body>
 
  <!-- NAVIGATION BAR -->
-  <nav id="transparent" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-    <div class="container-fluid" >
-      <div class="navbar-header" >
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="#"> THUY-VY</a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html#profile">About</a></li>
-          <li><a href="index.html#resume">Experience</a></li>
-          <li><a href="index.html#projects"> Projects</a></li>
-        </ul>
-      </div>
-    </div>
-    </div>
-  </nav>
+ <nav id="transparent" class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">THUY-VY</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#profile">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#resume">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#projects">Projects</a>
+      </li>
+    </ul>
+  </div>
+</nav>
   
   <a name="home"></a>
 
@@ -104,10 +102,13 @@
         <p> Over the summer, I was a Software Engineer Intern at Oracle on the Shepherd Team. I got to develop an application for Slack that allows users to receive instant notifications for status changes on their automated deployment.</p>
 
         <p>At Oregon State, I was also an IMPACT Lead Volunteer, Society of Women Engineers Ambassador, Project X Volunteer, and an undergraduate research assistant for the <a href="https://liberalarts.oregonstate.edu/sps/carve-lab"> CARVE Lab. </a> </p>
-        <br><br>
+        <br>
+
+        <a href="resume_thuyvynguyen.pdf"><button type="button" class="btn btn-outline-info">View My Resume</button>
+
       </div>
 
-      <a href="resume_thuyvynguyen.pdf"><button type="button" class="btn btn-lg btn-outline-warning" > View My Resume </button></a>
+      </a>
 
       <br><br><br>
     </div>
@@ -120,7 +121,51 @@
       </div>
     </div>
 
-    <div class = "row text-center">
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="projects/spotify.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Spotify Interactive</h5>
+          <p class="card-text"> Learn and interact with your Spotify music taste with statistics and cat visualizations. </p>
+          <p class="card-text"><small class="text-muted"> React, Spotify Web API</small></p>
+          <a href="https://spotify-interactive.vercel.app" class="card-link">Website</a>
+          <a href="https://github.com/ruangroc/final-project-team4" class="card-link"> GitHub</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="projects/ml.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> Interactive Visualization for AI Education</h5>
+          <p class="card-text"> Interactive and educative tools for users to learn about machine learning classification algorithms </p>
+          <p class="card-text"><small class="text-muted"> Jupyter Notebooks, D3.js, and Python</small></p>
+          <a href="https://github.com/laurajjiang/capstone_ai_education" class="card-link"> GitHub</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="projects/vr.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Visualizing Environmental Disasters w/ VR</h5>
+          <p class="card-text">Modeled real-life terrain in vr and analyzed potential effects of climate change by simulating environmental catastrophes.
+          </p>
+          <p class="card-text"><small class="text-muted"> Unreal Engine, City Engine</small></p>
+          <a href="img/poster.jpg" class="card-link"> Poster</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="projects/cocktail.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Cocktail App</h5>
+          <p class="card-text"> Android mobile app to search for cocktail recipes, discover new random cocktails, share the recipes with friends, and save your favorite recipes locally. 
+          </p>
+          <p class="card-text"><small class="text-muted"> Java, Kotlin</small></p>
+          <a href="img/poster.jpg" class="card-link"> Github</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class = "row text-center">
 
     <a href ="https://spotify-interactive.vercel.app"> 
       <div class="col-sm-3 cont">
@@ -157,9 +202,9 @@
           </div>
         </div>
       </a>
-    </div>
+    </div> -->
 
-    <div class = "row text-center">
+    <!-- <div class = "row text-center">
       <a href ="convert.html">
         <div class="col-sm-3 cont">
           <img src="projects/conversion.png" class="image" /> 
@@ -195,7 +240,7 @@
           </div>
         </div>
       </a>
-    </div>
+    </div> -->
 
   <br>  <br>
 

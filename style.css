@@ -155,3 +155,10 @@ a{
   .navbar-collapse.collapse.in {
     display: block!important;
   }
+
+  .card-img-top {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}

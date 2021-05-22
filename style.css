@@ -90,6 +90,7 @@ a{
 
 .backgray{
     background-color:	#435274;
+    display: block;
 }
 
 .cont {
@@ -170,4 +171,23 @@ a{
 
 .card-subtitle{
   font-style: italic;
+}
+
+.us{
+  float: left;
+  display: block;
+}
+
+.world{
+  float: right;
+  display: block;
+}
+
+.maps{
+  display: block;
+  overflow: hidden;
+}
+
+.ca{
+  display: block;
 }

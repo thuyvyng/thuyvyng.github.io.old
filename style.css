@@ -7,6 +7,10 @@ h2{
   /* font-weight: bold; */
 }
 
+h4{
+  font-weight: normal;
+}
+
 body{
   font-weight: light;
   font-size: smaller;
@@ -66,7 +70,8 @@ a{
 }
 
 .con{
-     color: white; 
+    font-weight: bold;
+    color: white; 
 }
 
 .contacts{
@@ -161,4 +166,8 @@ a{
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+}
+
+.card-subtitle{
+  font-style: italic;
 }

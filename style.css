@@ -169,6 +169,10 @@ a{
     width: 70%;
 }
 
+.card{
+  min-width: 150px;
+}
+
 .card-subtitle{
   font-style: italic;
 }

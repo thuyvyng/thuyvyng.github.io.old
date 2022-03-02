@@ -24,7 +24,6 @@ function calculateTip() {
   var personBill = totalBill / parseInt(numOfPeople);
   totalBill = totalBill.toFixed(2);
   personBill = personBill.toFixed(2);
-  
 
   var persontip = totaltip / parseInt(numOfPeople);
   //round to two decimal places
@@ -32,9 +31,7 @@ function calculateTip() {
   //next line allows us to always have two digits after decimal point
   persontip = persontip.toFixed(2);
 
-
   //Display the tip
-
 
   document.getElementById("totalTip").style.display = "block";
   document.getElementById("btotal").innerHTML = totalBill;
@@ -48,7 +45,6 @@ document.getElementById("totalTip").style.display = "none";
 document.getElementById("each").style.display = "none";
 
 //click to call function
-document.getElementById("calculate").onclick = function() {
+document.getElementById("calculate").onclick = function () {
   calculateTip();
-
 };

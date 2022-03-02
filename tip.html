@@ -1,98 +1,96 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title> Thuy-Vy Nguyen</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
- <!-- NAVIGATION BAR -->
-  <nav id="transparent" class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-        <a class="navbar-brand" href="index.html"> THUY-VY</a>
+  <head>
+    <title>Thuy-Vy Nguyen</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+    <nav id="transparent" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"> THUY-VY</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html#profile">About</a></li>
+              <li><a href="index.html#resume">Experience</a></li>
+              <li><a href="index.html#projects"> Projects</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html#profile">About</a></li>
-          <li><a href="index.html#resume">Experience</a></li>
-          <li><a href="index.html#projects"> Projects</a></li>
+    </nav>
 
-        </ul>
-      </div>
-    </div>
-    </div>
-  </nav>
-
-  <br> <br><br>
-   <!-- HERE IS WHERE THE TIP STUFF STARTS -->
-   <div class="calc container text-center">
-    <h1>Tip Calculator</h1>
-    <div class="calculator">
-
+    <br />
+    <br /><br />
+    <!-- HERE IS WHERE THE TIP STUFF STARTS -->
+    <div class="calc container text-center">
+      <h1>Tip Calculator</h1>
+      <div class="calculator">
         <form>
-            <p>How much was your bill? </p>
-            
-                <input type="text" id="billamt" > <br>
-           <br> <p>How was your service? </p>
-                    <select id="serviceQual">
-                        <option disabled selected value="0"> Service Quality</option>
-                        <option value="0.3">30&#37; &#45; Outstanding</option>
-                        <option value="0.2">20&#37; &#45; Good</option>
-                        <option value="0.15">15&#37; &#45; Mediocre </option>
-                        <option value="0.1">10&#37; &#45; Bad</option>
-                        <option value="0.05">5&#37; &#45; Terrible</option>
-                    </select>
+          <p>How much was your bill?</p>
+
+          <input type="text" id="billamt" /> <br />
+          <br />
+          <p>How was your service?</p>
+          <select id="serviceQual">
+            <option disabled selected value="0">Service Quality</option>
+            <option value="0.3">30&#37; &#45; Outstanding</option>
+            <option value="0.2">20&#37; &#45; Good</option>
+            <option value="0.15">15&#37; &#45; Mediocre</option>
+            <option value="0.1">10&#37; &#45; Bad</option>
+            <option value="0.05">5&#37; &#45; Terrible</option>
+          </select>
         </form>
-        <br>
+        <br />
         <p>How many people are sharing the bill?</p>
-        <input type="text" placeholder="Number of People" id="peopleamt">
+        <input type="text" placeholder="Number of People" id="peopleamt" />
 
-          <br> <br>
+        <br />
+        <br />
         <button type="button" id="calculate">Calculate!</button>
-        <br>
-        <br>
-    </div>
-    
-    
-    <!--calculator end-->
-    <div id="totalTip">
-        <hr>
-        <br>
-        <p> Tip Total: 
-        $<span id="tiptotal">0.00</span> </p>
+        <br />
+        <br />
+      </div>
 
-        <p> Per person: 
-        $<span id="tip">0.00</span> </p>
+      <!--calculator end-->
+      <div id="totalTip">
+        <hr />
+        <br />
+        <p>Tip Total: $<span id="tiptotal">0.00</span></p>
 
-        <p> Bill Total w/ Tip: 
-        $<span id="btotal">0.00</span> </p>
+        <p>Per person: $<span id="tip">0.00</span></p>
 
-        <p> Per Person: 
-        $<span id="ptotal">0.00</span> </p>
+        <p>Bill Total w/ Tip: $<span id="btotal">0.00</span></p>
 
+        <p>Per Person: $<span id="ptotal">0.00</span></p>
 
         <small id="each"></small>
 
-        <br>
+        <br />
+      </div>
+      <!--totalTip end-->
     </div>
-    <!--totalTip end-->
-
-</div>
-<script type="text/javascript" src="tipcalculator.js"></script>
-</body>
+    <script type="text/javascript" src="tipcalculator.js"></script>
+  </body>
 </html>
-

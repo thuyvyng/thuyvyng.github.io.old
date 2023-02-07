@@ -4,7 +4,6 @@
 
 h2 {
   font-family: "Poppins", sans-serif;
-  /* font-weight: bold; */
 }
 
 h4 {
@@ -89,6 +88,11 @@ a {
 .backgray {
   background-color: #435274;
   display: block;
+  color: white;
+}
+
+.backgray a {
+  color: pink;
 }
 
 .cont {
